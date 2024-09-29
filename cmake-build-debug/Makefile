@@ -153,6 +153,54 @@ src/block.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/block.cpp.s
 .PHONY : src/block.cpp.s
 
+src/i18n.o: src/i18n.cpp.o
+.PHONY : src/i18n.o
+
+# target to build an object file
+src/i18n.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/i18n.cpp.o
+.PHONY : src/i18n.cpp.o
+
+src/i18n.i: src/i18n.cpp.i
+.PHONY : src/i18n.i
+
+# target to preprocess a source file
+src/i18n.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/i18n.cpp.i
+.PHONY : src/i18n.cpp.i
+
+src/i18n.s: src/i18n.cpp.s
+.PHONY : src/i18n.s
+
+# target to generate assembly for a file
+src/i18n.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/i18n.cpp.s
+.PHONY : src/i18n.cpp.s
+
+src/input.o: src/input.cpp.o
+.PHONY : src/input.o
+
+# target to build an object file
+src/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/input.cpp.o
+.PHONY : src/input.cpp.o
+
+src/input.i: src/input.cpp.i
+.PHONY : src/input.i
+
+# target to preprocess a source file
+src/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/input.cpp.i
+.PHONY : src/input.cpp.i
+
+src/input.s: src/input.cpp.s
+.PHONY : src/input.s
+
+# target to generate assembly for a file
+src/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/input.cpp.s
+.PHONY : src/input.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... src/block.o"
 	@echo "... src/block.i"
 	@echo "... src/block.s"
+	@echo "... src/i18n.o"
+	@echo "... src/i18n.i"
+	@echo "... src/i18n.s"
+	@echo "... src/input.o"
+	@echo "... src/input.i"
+	@echo "... src/input.s"
 .PHONY : help
 
 

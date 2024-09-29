@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/untitled1.dir/src/block.cpp.o -o untitled1
+/usr/bin/c++ -g CMakeFiles/untitled1.dir/src/block.cpp.o CMakeFiles/untitled1.dir/src/input.cpp.o CMakeFiles/untitled1.dir/src/i18n.cpp.o -o untitled1
